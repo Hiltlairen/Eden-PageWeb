@@ -9,6 +9,7 @@ function DepartamentoTitulo(){
             <div className="contenedor-titulo">
                 <h1 className="titulo">{Titulo}</h1>
                 <p className="contexto">{descripcion}</p>
+                <button className="btn-mas">Más</button>
             </div>
         </>
     )

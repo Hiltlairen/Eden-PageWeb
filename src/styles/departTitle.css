@@ -13,9 +13,35 @@
   }
   
   .contexto {
-    max-width: 800px; 
-    font-size: 16px;
+    max-width: 60%; 
+    font-size: 20px;
+    font-weight: 400;
     height: 100px;
     color: white; /* Cambia el color según tus preferencias */
     margin-top: 20px; /* Espacio entre el título y el texto */
+  }
+  @media only screen and (max-width: 600px) {
+    .contenedor-titulo {
+        position: absolute;
+        align-content:center;
+        top: 28%;
+        left: 60px;
+        font-size: 80px;
+    }
+  }
+
+  .btn-mas {
+    margin-left: 150px;
+    
+    width: 137px;
+    height: 46px;
+    background-color: #4CAF50; /* Cambia el color del fondo del botón según tus preferencias */
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-mas:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón sobre el botón */
   }

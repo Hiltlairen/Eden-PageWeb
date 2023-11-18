@@ -5,9 +5,6 @@ function FondoDep(){
     const fondo=tituloDep[0].fondo;
     return(
         <>
-            <style>
-                
-            </style>
             <img src={fondo} alt="Imagen de fondo" className="fondo-imagen" />
 
         </>
