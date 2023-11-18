@@ -1,0 +1,21 @@
+.contenedor-titulo {
+    position: absolute;
+    align-content:normal;
+    top: 28%;
+    left: 40px;
+    font-size: 80px;
+  }
+  
+  .titulo {
+    font-family: "Odor Mean Chey", sans-serif;
+    font-size: 80px;
+    color: white; /* Cambia el color según tus preferencias */
+  }
+  
+  .contexto {
+    max-width: 800px; 
+    font-size: 16px;
+    height: 100px;
+    color: white; /* Cambia el color según tus preferencias */
+    margin-top: 20px; /* Espacio entre el título y el texto */
+  }

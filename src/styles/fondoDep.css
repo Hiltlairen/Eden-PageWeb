@@ -1,0 +1,10 @@
+.fondo-imagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1; /* Ajusta la opacidad según sea necesario */
+    z-index: -1; /* Para que la imagen esté detrás del contenido */
+  }

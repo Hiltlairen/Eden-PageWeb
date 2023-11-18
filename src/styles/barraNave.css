@@ -1,0 +1,31 @@
+
+.nav_bar {
+  background-color: transparent;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 51px;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    nav {
+      margin-top: 20px;
+      height: 0px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav a {
+
+        margin: 5px 0;
+    }
+}
+  
